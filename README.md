@@ -14,10 +14,12 @@ To build you will need the Qt development packages installed on your system (usi
 
 Use make distclean just in case there's some system-specific files left in the source distribution. It will likely cause an error if no extraneous files are present. This error/warning is expected and can be safely ignored.
 
+```
 # make distclean
 # qmake
 # make
 # ./proxyweb
+```
 
 
 ## Questions?
